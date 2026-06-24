@@ -13,6 +13,7 @@ from nltk.corpus import stopwords
 nltk.download('vader_lexicon', quiet=True)
 nltk.download('stopwords', quiet=True)
 nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
 
 nlp = spacy.load("pt_core_news_sm")
 
